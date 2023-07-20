@@ -1,0 +1,286 @@
+* {
+    background-color: grey;
+}
+
+.flex-contenairGnl {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+.flex-container1 {
+    background-color: black;
+    flex-wrap: wrap;
+    display: inline-flex;
+    flex-direction: row;
+    width: 95%;
+    height: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.blackbb {
+    background-color: black;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    width: 30%;
+    height: 50%;
+    order: 1;
+}
+
+.redbb {
+    background-color: red;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    width: 30%;
+    height: 50%;
+    order: 2;
+}
+
+.violetbb {
+    background-color: violet;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    width: 30%;
+    height: 50%;
+    order: 3;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    height: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.flex-container3 {
+    background-color: white;
+    flex-wrap: wrap;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    width: 95%;
+    height: 5%;
+}
+
+.flex-container4 {
+    display: flex;
+    align-content: space-around;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gdviolet {
+    background-color: violet;
+    width: 25%;
+    height: 80%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    width: 25%;
+    height: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid1 {
+    background-color: rgb(72, 66, 66);
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid2 {
+    background-color: red;
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid3 {
+    background-color: rgb(72, 66, 66);
+    order: 3;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid4 {
+    background-color: white;
+    order: 4;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid5 {
+    background-color: rgb(72, 66, 66);
+    order: 5;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid6 {
+    background-color: yellow;
+    order: 6;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid7 {
+    background-color: red;
+    order: 7;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid8 {
+    background-color: yellow;
+    order: 8;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.rid9 {
+    background-color: yellow;
+    order: 9;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gridcol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10%;
+    grid-row-gap: 0%;
+    width: 25%;
+    height: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gridcol1 {
+    background-color: black;
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gridcol2 {
+    background-color: rgb(219, 178, 97);
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gridcol3 {
+    background-color: red;
+    order: 3;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gridcol4 {
+    background-color: black;
+    order: 4;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gridcol5 {
+    background-color: rgb(219, 178, 97);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    order: 5;
+}
+
+.gridcol6 {
+    background-color: rgb(199, 199, 199);
+    order: 6;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    ;
+}
+
+.gridcol7 {
+    background-color: black;
+    order: 7;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
+
+.gridcol8 {
+    background-color: rgb(219, 178, 97);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    order: 8;
+}
+
+.gridcol9 {
+    background-color: rgb(65, 57, 57);
+    order: 9;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+}
